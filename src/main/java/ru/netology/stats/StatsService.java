@@ -61,6 +61,7 @@ public class StatsService {
         }
         return amountMonths;
     }
+
     public long  amountMonthsAboveAverageSales(long[] purchases) {
         long averageSales = calculateAverageSum(purchases);
         long amountMonths = 0;
